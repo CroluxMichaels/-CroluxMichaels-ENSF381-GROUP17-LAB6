@@ -4,7 +4,7 @@ function About(props) {
     return(
         <div>
             <h2>{props.title}</h2>
-            <p>About Us</p>
+            {/* <p>About Us</p> */}
             <p>{props.description}</p>
         </div>
     );
